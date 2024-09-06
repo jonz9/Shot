@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React from "react";
@@ -34,3 +35,5 @@ const PageTransition: React.FC<PageTransitionProps> = ({
 };
 
 export default PageTransition;
+=======
+>>>>>>> bef1a8ed9d2dcfdb5ad2e92ba9a0a7889dc0dbd3
