@@ -1,3 +1,5 @@
+import { Variants } from "framer-motion";
+
 export const textVariant = (delay: string) => {
   return {
     hidden: {
@@ -16,7 +18,10 @@ export const textVariant = (delay: string) => {
   };
 };
 
-export const staggerContainer = (staggerChildren: any, delayChildren: any) => {
+export const staggerContainer = (
+  staggerChildren: any,
+  delayChildren: any
+): Variants => {
   return {
     hidden: {},
     show: {
