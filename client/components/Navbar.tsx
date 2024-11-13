@@ -28,9 +28,7 @@ const Navbar = () => {
         scroll
         className={cn("flex relative items-center justify-center")}
       >
-        <span className={delius.className}>
-          <h1 className={`text-3xl italic`}>Shot</h1>
-        </span>
+        <h1 className={`text-3xl font-bold`}>Shot</h1>
       </Link>
 
       <div className="flex relative items-center space-x-16">
